@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import SetApi from './api/SetApi';
 import './App.css';
+import Grid from './components/Layout/Grid/Grid';
+import { Square1, Square2 } from './components/Squares/Squares';
+import { Container } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="center-grid">
+      <Grid className="main-grid">
+        <div>
+          <div>
+            <Square1 id="square1" />
+          </div>
+        </div>
+        <section className="main-body">
+          MAIN
+        </section>
+        <div>
+          <div>
+            <Square2 id="square2" />
+          </div>
+        </div>
+      </Grid>
+
     </div>
   );
 }
