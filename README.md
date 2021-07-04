@@ -10,7 +10,7 @@
 
 
 ### View in browser
-[Live](https://sportify-599.herokuapp.com/)
+[Live](https://reverent-payne-f0e1d7.netlify.app/)
 
 ### Screenshot
 <img align="center" alt="Screenshot" height="400px" src="Screenshot 2021-07-04 at 15.53.05.png"/>
