@@ -44,6 +44,12 @@ The project utilises the CharacterScope API at runtime, and is fully built with 
 
 ## Prequisites
 
+- Node.js
+- NPM
+- Node modules Prismic Io
+- Create react App 
+- Prismic Api keys
+
 An internet browser, and a desktop PC or Mac
 
 ## Usage
