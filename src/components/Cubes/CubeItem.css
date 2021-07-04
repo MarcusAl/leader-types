@@ -22,7 +22,7 @@
 
 .cube-item:hover {
   cursor: pointer;
-  border: solid #fff;
+  border: solid #d5d5d5;
 }
 
 .cube-item__image {
@@ -33,7 +33,7 @@
 
 .cube-item__description {
   /* border: solid 2px black; */
-  border-top: solid black 2px;
+  /* border-top: solid black 2px; */
   text-align: center;
   background: rgba(0, 0, 0, 0.25);
 }
@@ -50,4 +50,14 @@
   width: 100%;
   z-index: 30;
   opacity: 0.5;
+}
+
+@media screen and (min-width: 600px) {
+  .cube-item {
+    flex-basis: 80% !important;
+  }
+  .cube-item__image {
+    width: 200px;
+    height: 200px;
+  }
 }
