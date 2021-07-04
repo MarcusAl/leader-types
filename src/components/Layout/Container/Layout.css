@@ -1,0 +1,28 @@
+@import './Container.css';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Nunito:wght@300;400;600&display=swap');
+
+h3 {
+  color: #000;
+  font-family: 'Nunito', serif;
+  letter-spacing: 0px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+body {
+  overflow-x: hidden;
+  background: #586CC2;
+}
+
+#main-container {
+  background-color: #F5F7F9;
+  padding: 0;
+}

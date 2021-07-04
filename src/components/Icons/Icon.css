@@ -1,0 +1,26 @@
+#icon-hero__container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+#icon-hero__title {
+  color: #f5f5f5;
+  font-family: 'Nunito', serif;
+  letter-spacing: 0px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.icon__image {
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
