@@ -6,7 +6,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/marcusal/leader-types?/main?style=for-the-badge)
 
 
-# Sportify
+# Leader Types
 
 
 ### View in browser
