@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
+import { useRef } from 'react'
 import { Square1 } from '../Squares/Squares';
 import './CubeItem.css'
 
 
 const CubeItem = (props) => {
   let [isActive, setActive] = useState(false);
+  const cubeRef = useRef();
+
+  function handleBackClick() {
+    // Scroll back to the title element...
+    cubeRef.current.scrollIntoView({ 
+      behavior: "smooth",
+      block: "start",
+      inline: "start" 
+    })
+  }
 
   // Init cube click handler
   const cubeToggle = () => {
@@ -15,11 +26,17 @@ const CubeItem = (props) => {
       setActive(false);
       console.log(isActive);
     }
+
+  };
+
+  const initFunctions = () => {
+    cubeToggle();
+    handleBackClick();
   };
 
   // Create the cube item. Add inline styling to change element appearance on click events
   return (
-    <div onClick={cubeToggle} className="cube-item" style={{flexBasis: `${isActive ? "100%" : "33%"}`}}>
+    <div ref={cubeRef} onClick={initFunctions} className="cube-item" style={{flexBasis: `${isActive ? "100%" : "33%"}`}}>
       <div className={!isActive ? null : "cube-item__overlay"} style={{backgroundColor: `${isActive ? `${props.colour}` : 'black'}`, opacity: '0.07'}}></div>
       {/* <Square1 /> */}
       <img className='cube-item__image'
