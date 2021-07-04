@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/leader-types/static/css/main.aeb9ceca.chunk.css",
+    "main.js": "/leader-types/static/js/main.2942018f.chunk.js",
+    "main.js.map": "/leader-types/static/js/main.2942018f.chunk.js.map",
+    "runtime-main.js": "/leader-types/static/js/runtime-main.c243f33f.js",
+    "runtime-main.js.map": "/leader-types/static/js/runtime-main.c243f33f.js.map",
+    "static/js/2.726c5abe.chunk.js": "/leader-types/static/js/2.726c5abe.chunk.js",
+    "static/js/2.726c5abe.chunk.js.map": "/leader-types/static/js/2.726c5abe.chunk.js.map",
+    "static/js/3.7583e18f.chunk.js": "/leader-types/static/js/3.7583e18f.chunk.js",
+    "static/js/3.7583e18f.chunk.js.map": "/leader-types/static/js/3.7583e18f.chunk.js.map",
+    "index.html": "/leader-types/index.html",
+    "static/css/main.aeb9ceca.chunk.css.map": "/leader-types/static/css/main.aeb9ceca.chunk.css.map",
+    "static/js/2.726c5abe.chunk.js.LICENSE.txt": "/leader-types/static/js/2.726c5abe.chunk.js.LICENSE.txt",
+    "static/media/Layout.css": "/leader-types/static/media/MountainPerson.d3069a15.jpg",
+    "static/media/climbing-goals.21503bd8.png": "/leader-types/static/media/climbing-goals.21503bd8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c243f33f.js",
+    "static/js/2.726c5abe.chunk.js",
+    "static/css/main.aeb9ceca.chunk.css",
+    "static/js/main.2942018f.chunk.js"
+  ]
+}
